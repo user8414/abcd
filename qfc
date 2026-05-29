@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+#define SIZE 5
+
+int front = 0, rear = SIZE - 1;
+int count = SIZE;
+
+bool isFull() {
+    return count == SIZE;
+}
+
+int main() {
+    if(isFull())
+        cout << "Queue is Full";
+    else
+        cout << "Queue is Not Full";
+
+    return 0;
+}
+
+--------------------------------
+
+#include <iostream>
+using namespace std;
+
+int front = -1, rear = -1;
+
+bool isEmpty() {
+    return front == -1;
+}
+
+int main() {
+    if(isEmpty())
+        cout << "Queue is Empty";
+    else
+        cout << "Queue is Not Empty";
+
+    return 0;
+}
