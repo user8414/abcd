@@ -43,4 +43,4 @@ UNIT 5 tree
 
 11. iqa - > Implementation of queue using array
 
-TC -> time complexity 
+TC -> time complexity and theory 
