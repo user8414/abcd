@@ -26,8 +26,8 @@ unit 2
 
 1. rll ->Reverse Linked List. 
 2.  sll   -> singly linked list program(operations )
-3         ->
-
+3   mtll      -> Merge Two Linked Lists
+4.   llo.  ->linklist operation , add ,delete, search 
 
 unit Queue 
 
